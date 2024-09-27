@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="name">Nom</label>
+      <input name="name" type="text" id="name" />
+      <br /><br />
+      <label for="email">Email</label>
+      <input name="email" type="email" id="email" />
+      <br /><br />
+      <label for="date">Date</label>
+      <input name="date" type="date" id="date" />
+      <br /><br />
+      <label for="password">Password</label>
+      <input name="password" type="password" id="password" />
+      <br /><br />
+      <label for="description">Description</label>
+      <textarea name="description" id="description"></textarea>
+      <br /><br />
+      <label for="gender">gender</label>
+      <select name="gender" id="gender">
+        <option value="man">Homme</option>
+        <option value="women">Femme</option>
+        <option value="tree" selected>Arbre</option>
+        <option value="other">Autre</option>
+      </select>
+
+      <br /><br />
+      <label for="fruit">fruit</label><br />
+      <input name="fruit" type="checkbox" id="fruit" value="apple" />Pomme
+      <br />
+      <input name="fruit" type="checkbox" id="fruit" value="peach" />Peche
+      <br />
+      <br /><br />
+      <label for="sport">Sport</label><br />
+      <input name="sport" type="radio" id="sport" value="foot" />Foot <br />
+      <input name="sport" type="radio" id="sport" value="rugby" />Rugby <br />
+
+      <br />
+      <!-- <input type="submit" value="Sauvegarder"> -->
+      <button type="submit">Sauvegarder Button</button>
+    </form>
+  </body>
+</html>
